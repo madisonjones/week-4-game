@@ -1,0 +1,146 @@
+body {
+	background-image: url(../images/catfur.jpg);
+}
+
+h1 {
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	font-size: 48px;
+	height: 75px;
+	background-color: #5c962d;
+	color: white;
+	border-radius: 10px;
+	opacity: .8;
+	padding-top: 20px;
+	font-family:'Fjalla One', sans-serif;
+
+}
+
+p {
+	float: left;
+	position: absolute;
+	height: 300px;
+	width: 300px;
+	background-color: white;
+	opacity: .9;
+	color: #5c962d;
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 24px;
+	padding: 30px;
+	left: 20px;
+	top: 125px;
+	border-radius: 10px;
+}
+
+#locationOptions {
+	position: absolute;
+	top: 380px;
+	left: 450px;
+}
+
+#uptown, #plaza, #SouthEnd, #NoDa {
+	margin: 10px;
+	position: relative;
+	float: left;
+}
+
+#uptown:hover, #plaza:hover, #SouthEnd:hover, #NoDa:hover {
+	opacity: .7;
+}
+
+#location1, #location2, #location3, #location4 {
+	border-radius: 8px;
+}
+
+h2 {
+	position: absolute;
+	width: 100%;
+	top: 60px;
+	height: 20px;
+	background-color: #52962d;
+	color: white;
+	text-align: center;
+	font-family: 'Fjalla One', sans-serif;
+}
+
+#randomNumber {
+	position: absolute;
+	width: 200px;
+	left: 500px;
+	top: 125px;
+	background-color: white;
+	color: #5c962d;
+	font-family: 'Fjalla One', sans-serif;
+	padding: 10px;
+	height: 210px;
+	border-radius: 10px;
+	text-align: center;
+
+}
+
+#scoreBox {
+	position: absolute;
+	width: 200px;
+	left: 800px;
+	top: 125px;
+	background-color: white;
+	color: #5c962d;
+	font-family: 'Fjalla One', sans-serif;
+	padding: 10px;
+	height: 210px;
+	border-radius: 10px;
+	text-align: center; 
+}
+
+#wins, #losses {
+	font-size: 40px;
+}
+
+#score, #spaceAvailable {
+	font-size: 60px;
+}
+
+#winBox {
+	position: absolute;
+	width: 200px;
+	left: 1100px;
+	top: 125px;
+	background-color: white;
+	color: #5c962d;
+	font-family: 'Fjalla One', sans-serif;
+	padding: 10px;
+	height: 80px;
+	border-radius: 10px;
+	text-align: center;
+}
+
+#lossBox {
+	position: absolute;
+	width: 200px;
+	left: 1100px;
+	top: 250px;
+	background-color: white;
+	color: #5c962d;
+	font-family: 'Fjalla One', sans-serif;
+	padding: 10px;
+	height: 80px;
+	border-radius: 10px;
+	text-align: center;
+}
+
+footer {
+	position: absolute;
+	width: 100%;
+	height: 40px;
+	font-size: 24px;
+	background-color: #5c962d;
+	color: white;
+	text-align: center;
+	bottom: 0px;
+	border-radius: 10px;
+	opacity: .8;
+	padding-top: 20px;
+	font-family: 'Fjalla One', sans-serif;
+
+}

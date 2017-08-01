@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Kitty Rescue</title>
+
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css"/>
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+	<link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
+
+
+</head>
+<body>
+	<h1>Kitty Rescue</h1>
+
+	<p>
+		We need your help!
+		There are stray kitties around Charlotte that need to be brought to the shelter. the number below shows how much space we have available to house them.
+		Click the locations below to see how many kitties you can find in each spot.
+		You win when you fill up the animal shelter with saved kittens. But don't overcrowd us please!
+	</p>
+
+	<div id="randomNumber">
+		Space Available: <br><br><br> <br><span id="spaceAvailable"></span>
+	</div>
+
+	<div id="winBox">
+		Wins: <br><br><span id="wins">0</span>
+	</div>
+	<div id="lossBox">
+		Losses: <br><br><span id="losses">0</span>
+	</div>
+
+	<wrapper id="locationOptions">
+		<div id="uptown">
+			<img src="assets/images/uptown.jpg" class="locations" id="location1" height="100" width="200">
+			<h2>Uptown</h2>
+		</div>
+		<div id="plaza">
+			<img src="assets/images/plaza.jpg" class="locations" id="location2" height="100" width="200">
+			<h2>Plaza Midwood</h2>
+		</div>
+		<div id="SouthEnd">
+			<img src="assets/images/southend.jpg" class="locations" id="location3" height="100" width="200">
+			<h2>South End</h2>
+		</div>
+		<div id="NoDa">
+			<img src="assets/images/noda.jpg" class="locations" id="location4" height="100" width="200">
+			<h2>NoDa</h2>
+		</div>
+	</wrapper>
+
+	<div id="scoreBox">
+		Number of kitties found: <br><br><br><br>
+		<span id="score">0</span>
+	</div>
+
+
+	<footer>
+		Copyright 2016 Madison Jones
+	</footer>
+
+	    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	    <script src="assets/javascript/game.js"></script>
+
+	
+</body>
+</html>
