@@ -28,6 +28,7 @@ $(document).ready(function(){
 		$("#score").html(kittiesFound)
 		
 		if (kittiesFound>randomNumber) {
+			$("#score").html(kittiesFound)
 			alert("You overcrowded the shelter!")
 			randomNumber = Math.floor((Math.random() * 121) + 19);
 			$("#spaceAvailable").html(randomNumber)
@@ -43,6 +44,7 @@ $(document).ready(function(){
 		} //end loss if statement
 
 		else if (kittiesFound == randomNumber) {
+			$("#score").html(kittiesFound)
 			alert("Yay! All of the kitties found a home!")
 			randomNumber = Math.floor((Math.random() * 121) + 19);
 			$("#spaceAvailable").html(randomNumber)
